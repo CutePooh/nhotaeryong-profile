@@ -8,7 +8,7 @@ const ExperiencePage: React.FC = () => {
     <div className="p-6 md:p-12 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <div className="mb-8 md:mb-12">
         <h2 className="text-xl md:text-2xl font-bold text-stone-900 mb-2">경력기술서 (Experience)</h2>
-        <p className="text-sm md:text-base text-stone-500 break-keep">실무에서의 경험과 주요성과를 시간 순으로 정리했습니다.</p>
+        <p className="text-sm md:text-base text-stone-500 break-keep">KB국민은행에서의 경험과 주요성과를 시간 순으로 정리했습니다.</p>
       </div>
 
       <div className="relative border-l-2 border-stone-200 ml-2 md:ml-4 space-y-10 md:space-y-12 pb-8">
