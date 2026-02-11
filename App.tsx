@@ -11,7 +11,7 @@ const App: React.FC = () => {
     <Router>
       <div className="flex flex-col md:flex-row min-h-screen bg-[#F2F0EA] text-stone-800 font-sans">
         {/* Sidebar Navigation */}
-        <div className="w-full md:w-64 flex-shrink-0 z-50">
+        <div className="w-full md:w-64 flex-shrink-0 z-50 sticky top-0 md:static">
           <Sidebar />
         </div>
 

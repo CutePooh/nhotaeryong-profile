@@ -31,7 +31,7 @@ export const EXPERIENCES: Experience[] = [
     period: "2023 - 2024",
     role: "본부 부서장",
     achievements: [
-      "KB국민은행 담보평가업무 총괄 부서장으로써 리스크 관리 및 전행 비용절감",
+      "KB국민은행 담보평가업무 총괄 부서장으로서 리스크 관리 및 전행 비용절감",
       "담보평가 업무수행 전문직원 채용 심사 및 전행 담보평가시스템 개발 추진",
       "담보평가 자체평가 확대로 외부평가에 따른 전사적 비용절감 달성"
     ]
@@ -41,7 +41,7 @@ export const EXPERIENCES: Experience[] = [
     period: "2019 - 2022",
     role: "영업점장",
     achievements: [
-      "영업점 총괄 경영 관리를 통한 KPI 달성으로 최우수 지역본부 선정 기여",
+      "영업점 총괄 경영관리를 통한 KPI 달성으로 최우수 지역본부 선정 기여",
       "중소 및 중견기업 대상 종합금융 솔루션 및 기업컨설팅 제공"
     ]
   },
@@ -89,5 +89,5 @@ export const CERTIFICATIONS: Certification[] = [
   { name: "외환관리사", issuer: "한국무역협회", date: "2009.05" },
   { name: "CFP(국제공인재무설계사)", issuer: "FPSB International", date: "2009.3" },
   { name: "기업금융,자산관리,외환 직무인증", issuer: "KB국민은행", date: "2010.12" },
-  { name: "외완전문역, 파생상품투자상담사 등", issuer: "한국금융연수원 등", date: "2005.12" }
+  { name: "외환전문역, 파생상품투자상담사 등", issuer: "한국금융연수원 등", date: "2005.12" }
 ];

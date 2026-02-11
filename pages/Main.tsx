@@ -37,15 +37,15 @@ const Main: React.FC = () => {
               href={`https://mail.google.com/mail/?view=cm&fs=1&to=${PROFILE.email}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 md:px-6 md:py-3 bg-blue-800 text-white rounded-full hover:bg-blue-900 transition-all font-bold shadow-md hover:shadow-lg"
+              className="flex items-center gap-2 px-5 py-2.5 md:px-6 md:py-3 bg-blue-100 text-blue-900 rounded-full hover:bg-blue-200 transition-all font-bold shadow-sm hover:shadow-md"
             >
               <Mail size={16} className="md:w-[18px] md:h-[18px]" /> {PROFILE.email}
             </a>
             <a 
               href={`tel:${PROFILE.phone}`}
-              className="flex items-center gap-2 px-5 py-2.5 md:px-6 md:py-3 bg-white border border-stone-200 text-stone-700 rounded-full font-bold shadow-sm hover:bg-stone-50 transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 md:px-6 md:py-3 bg-green-100 text-green-900 rounded-full font-bold shadow-sm hover:bg-green-200 transition-colors"
             >
-              <Phone size={16} className="text-blue-800 md:w-[18px] md:h-[18px]" /> {PROFILE.phone}
+              <Phone size={16} className="text-green-900 md:w-[18px] md:h-[18px]" /> {PROFILE.phone}
             </a>
           </div>
         </div>
