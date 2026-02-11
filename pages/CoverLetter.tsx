@@ -12,7 +12,7 @@ const CoverLetterPage: React.FC = () => {
       </div>
 
       <article className="prose prose-stone prose-sm md:prose-lg max-w-none text-stone-700 leading-relaxed">
-        <h3 className="text-lg md:text-xl font-bold text-stone-900 mt-8 md:mt-12 mb-4 md:mb-6 leading-snug">"37년의 금융 현장 경험으로 기업의 성장을 설계합니다"</h3>
+        <h3 className="text-lg md:text-xl font-bold text-stone-900 mt-8 md:mt-12 mb-4 md:mb-6 leading-snug">"금융 현장 경험으로 기업의 성장을 설계합니다"</h3>
         <p className="text-left break-keep">
           안녕하세요, 금융을 통해 기업의 지속 가능한 가치를 창출하는 전문가 {PROFILE.name}입니다. 
           저는 1989년부터 2025년까지 37년 동안 KB국민은행에서 근무하며, 대한민국 금융의 심장부에서 현장중심의 실무경험을 쌓아왔습니다. 
